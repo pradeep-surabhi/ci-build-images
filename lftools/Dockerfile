@@ -1,5 +1,4 @@
 FROM centos:7
-
 COPY ./fedora-infra-sigul.repo /etc/yum.repos.d/
 
 RUN yum install -y libxml2 libxslt \
