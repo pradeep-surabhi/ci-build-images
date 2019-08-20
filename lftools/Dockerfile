@@ -15,5 +15,4 @@ RUN curl "https://bootstrap.pypa.io/get-pip.py" -o get-pip.py \
     && python get-pip.py \
     && rm -rf get-pip.py
 RUN pip install --no-cache-dir --upgrade pip setuptools
-
 RUN pip install --no-cache-dir -I lftools[openstack]==0.23.1
